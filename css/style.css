@@ -1,0 +1,526 @@
+﻿<style>
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+}
+
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  /*
+  둥근 직사각형인 nav를 직사각형으로 함
+  */
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo_travel_in_korea.png') no-repeat;
+  background-size: 100%;
+  width: 150px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1 {
+    color: #3F48CC;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+#nav-list {
+  font-weight: ;
+  margin-top: 10%;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#nav-list a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+/*
+10. 햄버거 버튼에서 메뉴를 선택하면 하얗게 표시/아직 안됨
+*/
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+/*
+11. 햄버거 버튼 색깔 다르게 함
+*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: auto;
+}
+
+/* HOME PAGE */
+
+
+.container .jumbotron {
+  background: url('../images/travel_in_korea.jpg') no-repeat;
+  padding: 0;
+}
+
+#map-image{
+  background: url('../images/map_in_korea.png') no-repeat center center;
+}
+/*
+알3. width를 60%로 제한안하면 밑에 있는 다른 그리드가 올라옴
+width 크기를 지정하면 같은 디비전에 있는 h2는 높이를 같이 적용받음?
+*/
+.container h2 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 50%;
+  text-align: right;
+}
+
+#home-tiles {
+background: #FCF7D7;
+margin-left: 0;
+margin-right: 0;
+}
+
+#theme-tile{
+  width: 85%;
+}
+
+#home-content1 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 30%;
+  background: #FCF7D7;
+text-align: center;
+}
+
+#link1, #link1:hover, .link, .link:hover{
+color: white;
+text-decoration: none;
+
+}
+
+
+#link1 {
+font-size: 2vw;
+font-weight: bold;
+margin-top: 10%;
+text-align: center;
+width: 60%;
+height: 50%;
+background-color: blueviolet;
+margin-left: auto;
+margin-right: auto;
+  opacity: .8;
+border-radius: 5px;
+}
+
+#map-tile, #activity-tile, #reservation-tile {
+margin-top: 10px;
+}
+
+#map-image, #activity-image, #reservation-image {
+position: relative;
+width: 100%;
+background-position: center;
+margin-top: 10px;}
+
+#link2, #link3, #link4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  color: #fff;
+  opacity: .8;
+}
+
+#link2{
+  background-color: #000;
+}
+#link3 {
+  background-color: #006;
+}
+#link4 {
+  background-color: #012;
+}
+
+#link1:hover, #map-tile:hover, #activity-tile:hover, #reservation-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+opacity: 1.5;
+}
+
+#small-content {
+color: black;
+position: absolute;
+top: 35%;
+text-align: center;
+right: 10%;
+font-size: 3vw;
+font-weight: bold;
+}
+
+.panel-footer {
+margin-top: 20px
+}
+
+/* END HOME PAGE */
+
+
+/* travel theme */
+
+.image {
+position:relative;
+}
+
+.themetitle h3{
+  font-size: 3vw;
+  font-weight: bold;
+  background-color:white;
+  opacity:0.8;
+  position:absolute;
+  top:0;
+  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#place, #nature, #market, #nightlife {
+margin-top: 1%;
+}
+
+#place:hover, #nature:hover, #market:hover, #nightlife:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+opacity:0.8;
+border-radius: 5px;
+}
+
+.placecontent, .naturecontent, .marketcontent, .nightlifecontent {
+margin-bottom: 20px;
+}
+
+.placecontent:hover, .naturecontent:hover, .marketcontent:hover, .nightlifecontent:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+background-color: #eeeeee ;
+border-radius: 5px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#placemap, #naturemap, #marketmap, #nightlifemap {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.insnippet {
+text-align:right;
+margin-top: 10px;
+}
+
+#inmapbutton {
+  background-color: #64b5f6;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  font-size: 1vw;
+  color: white;
+  opacity:0.8;
+  cursor:pointer;
+}
+
+#inmapbutton:hover {
+  background-color: #2196f3;
+}
+
+.hidebutton {
+  color: white;
+}
+
+/* END travel theme */
+
+
+
+
+/* map */
+
+#kakaomap, #navermap, #seoulmetro {
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#kakaomapimage, #navermapimage {
+padding-left: 6%;
+}
+
+#googlekakaomap, #applekakaomap, #googlenavermap, #applenavermap {
+margin-top:3%;
+}
+
+
+/* END map */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #logo-img {
+    background-size: 100%;
+    margin: 5px auto 0px 0;
+  }
+  /*
+  알1. 로고가 float이기 때문에 로고위치가 div에서 벗어남\
+  margin으로 다른 div 위치와 맞춤*/
+
+  /*
+  15번과 연결
+  */
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+
+}
+/*
+15번과 연결
+*/
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.jumbotron {
+padding-bottom: 30px;
+margin-bottom: 10px;
+}
+
+#reservation-image {
+position: relative;
+width: 50%;
+background-position: center;}
+
+#nav-list {
+  margin-top: 15%;
+  }
+
+/* travel theme */
+
+#span_code_snippet, #inmap {
+  font-size: 3vw;
+
+}
+
+#content1 h3 {
+  font-size: 5vw;
+}
+
+
+
+/* travel theme */
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph/아이콘 크기를 메뉴와 같게 하기위해/모 엘리먼트 상속 id 엘리먼트 다른 엘리먼트로 오버라이드 */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+
+.container h2 {
+margin-bottom: 10%;
+text-align: center;
+font-size: 4vw;
+font-weight: bold;
+margin-top: 0;
+}
+
+#home-content1{
+margin-top: 0;
+font-size: 3vw;
+}
+
+#link1 {
+margin-top: 5%;
+margin-bottom: 10%;
+font-size: 3vw;
+}
+
+#map-image{
+  background: url('../images/map_in_korea_small.png') no-repeat center center;
+}
+
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+  /*
+14. 13번과 마찬가지
+크기를 줄였을 때 나타나는 문제점을 수정, 12번 참고
+*/
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+  
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  /*
+  15번과 연결, padding을 주는 이유는 그냥 두면 이상한 하얀 경계선이 나타남
+  container와 jumbotron에 둘다 영향을 받아 두개를 같이 설정,
+  개발자메뉴에서 확인
+  */
+
+
+  #theme-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /*
+  25. 네비타일의 이미지가 작은 화면으로 될 때 경계선의 크기는 그대로 임,
+  이걸 조정, auto가 있어서 이미지가 중간에 배열?
+  */
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+
+  /*
+  위의 세개를 적용 안하면 싱글메뉴에서 화면이 작아질 때 이상해짐
+  */
+
+
+/* travel theme */
+
+#span_code_snippet, #inmap {
+  font-size: 3vw;
+
+}
+
+
+#content1 h3 {
+  font-size: 5vw;
+}
+
+/* travel theme */
+
+
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+
+
+
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+    .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  /*
+  메뉴.html용
+  */
+
+  /* travel theme */
+
+#content1 h3 {
+  font-size: 5vw;
+}
+
+#span_code_snippet, #inmap {
+  font-size: 3vw;
+
+}
+
+
+  /* travel theme */
+
+}
+/*
+26. 아이폰4의 화면이 가장 작음, 그래서 여기서도 테스트하고 화면 조정*/
+
+</style>
