@@ -198,17 +198,17 @@ position:relative;
   padding-right: 10px;
 }
 
-#place, #nature, #market, #nightlife {
+#place, #nature, #market, #nightview {
 margin-top: 1%;
 }
 
-#place:hover, #nature:hover, #market:hover, #nightlife:hover{
+#place:hover, #nature:hover, #market:hover, #nightview:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 opacity:0.8;
 border-radius: 5px;
 }
 
-.placecontent, .naturecontent, .marketcontent, .nightlifecontent {
+.placecontent, .naturecontent, .marketcontent, .nightviewcontent {
 margin-bottom: 20px;
 }
 
@@ -222,7 +222,7 @@ border-radius: 5px;
   font-weight: bold;
 }
 
-#placemap, #naturemap, #marketmap, #nightlifemap {
+#placemap, #naturemap, #marketmap, #nightviewmap {
 margin-top: 10px;
 margin-bottom: 10px;
 }
