@@ -57,13 +57,13 @@
   <div id="main-content" class="container">
     <div id="sub-content1" class="row">
 
-      <div id="vr" class="col-md-6 col-sm-6 col-xs-12" onclick="
+      <div id="place" class="col-md-6 col-sm-6 col-xs-12" onclick="
 	    if(placemap.style.display=='none'){
 	    placemap.style.display='';
 	    move1();
 	    naturemap.style.display='none';
 	    marketmap.style.display='none';
-	    nightlifemap.style.display='none';
+	    nightviewmap.style.display='none';
 	    }
 	    else{
 	    placemap.style.display='none';
@@ -76,13 +76,13 @@
         </div>
       </div>
 
-      <div id="kpop" class="col-md-6 col-sm-6 col-xs-12" onclick="
+      <div id="nature" class="col-md-6 col-sm-6 col-xs-12" onclick="
 	    if(naturemap.style.display=='none'){
 	    naturemap.style.display='';
 	    move2();
 	    placemap.style.display='none';
 	    marketmap.style.display='none';
-	    nightlifemap.style.display='none';
+	    nightviewmap.style.display='none';
 	    }
 	    else{
 	    naturemap.style.display='none';
@@ -95,13 +95,15 @@
         </div>
       </div>
 
-      <div id="spa" class="col-md-6 col-sm-6 col-xs-12" onclick="
+      <div class="clearfix visible-lg-block"></div>
+
+      <div id="market" class="col-md-6 col-sm-6 col-xs-12" onclick="
 	    if(marketmap.style.display=='none'){
 	    marketmap.style.display='';
 	    move3();
 	    placemap.style.display='none';
 	    naturemap.style.display='none';
-	    nightlifemap.style.display='none';
+	    nightviewmap.style.display='none';
 	    }
 	    else{
 	    marketmap.style.display='none';
@@ -114,51 +116,47 @@
         </div>
       </div>
 
-      <div id="history&museum" class="col-md-6 col-sm-6 col-xs-12" onclick="
-	    if(nightlifemap.style.display=='none'){
-	    nightlifemap.style.display='';
+      <div id="nightview" class="col-md-6 col-sm-6 col-xs-12" onclick="
+	    if(nightviewmap.style.display=='none'){
+	    nightviewmap.style.display='';
 	    move4();
 	    placemap.style.display='none';
 	    naturemap.style.display='none';
 	    marketmap.style.display='none';
 	    }
 	    else{
-	    nightlifemap.style.display='none';
+	    nightviewmap.style.display='none';
 	    }">
         <div>
           <img src="images/korea-nightlife.jpg" alt="korea-nightlife" class="img-responsive image">
         </div>
         <div class="themetitle">
-          <span><h3>Night Life</h3></span>
+          <span><h3>Night View</h3></span>
         </div>
       </div>
     </div>
 
-cooking
-city tour
-amusement park
-
 <hr>
 
     <div id="sub-content2" class="row">
-        <div id="vrmap" style="display:none">
+        <div id="placemap" style="display:none">
 	  <div class="col-md-4 col-sm-6 col-xs-12 placecontent">
-            <a href="https://goo.gl/maps/HShns35KsmPQCErGA" target="_blank">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4472.891360069392!2d126.93526375279924!3d37.559497304749655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c989113d85177%3A0x50661e517e6fc344!2z67iM65287J207Yq4IOyLoOy0jOygkA!5e0!3m2!1sen!2skr!4v1564658428403!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> <p class="title"> Gyeongbokgung Palace <br> <p class="content"> This palace was built at the late 12nd century. It was the palace for Choseon Kingdom.(The last kingdom of Korea.) The meaning of Gyeongbok is 'Enjoy the big fortune'. In this palace, each building was built for different purpose like coronation, ceremony, office and bed room etc. You can enjoy it wearing Hanbok, the traditional attire.(There's stores you can rent it.) In front of the palace, there's the gate called Gwanghwamun Gate and the statue of General Yi Sun-shin(You might heard of him for the battle at East sea. He won the fight against 133 battle ships of Japan only with 13 battle ships.)</span></div>
+            <a href="https://goo.gl/maps/2oVBT2r76QExwhAr6" target="_blank">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.957562550004!2d126.974852315312!3d37.579616979795425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c74aeddea1%3A0x8b3046532cc715f6!2sGyeongbokgung+Palace!5e0!3m2!1sen!2skr!4v1563519638412!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span> <p class="title"> Gyeongbokgung Palace <br> <p class="content"> This palace was built at the late 12th century. It was the palace for Choseon Kingdom.(The last kingdom of Korea) The meaning of Gyeongbok is 'Enjoy the big fortune'. <br> In this palace, each building was built for different purpose of coronation, ceremony, office and bed room etc. You can enjoy it wearing Hanbok, the traditional attire.(There's stores near palace you can rent it) <br> In front of the palace, there's the gate called Gwanghwamun Gate and the statue of General Yi Sun-shin. You might heard of him for the battle at East sea. He won the fight against 133 battle ships of Japan only with 13 battle ships.</span></div>
 	  <div class="col-md-4 col-sm-6 col-xs-12 placecontent">
-            <a href="https://goo.gl/maps/A5tgjtRZTDagUUur8" target="_blank">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.526689773852!2d127.02710851572526!3d37.49549417981121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1242fb25081%3A0x18048ff6dad590a3!2zVlLsiqTthYzsnbTshZg!5e0!3m2!1sen!2skr!4v1564658513904!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> <p class="title"> Insa-dong <br> <p class="content"> Insa-dong is one of the place that you can feel the traditional culture. There's lots of gallery, handicraft class, cafe and restaurant. Also, you can buy some traditional souvenir to memorise the experience in Korea. </span></div>
+            <a href="https://goo.gl/maps/MUnThSCCSp2uuEWq8" target="_blank">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.2791077343645!2d126.98381726531184!3d37.572044879796806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e80ef04ca1%3A0x4dbdf00ad06265a4!2sInsa-dong%2C+Jongno-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1563685204966!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span> <p class="title"> Insa-dong <br> <p class="content"> Insa-dong is one of the place that you can feel the traditional culture. There's lots of gallery, handicraft class, cafe and restaurant. Also, you can buy some traditional souvenir from here to memorise the experience in Korea. </span></div>
 	  <div class="clearfix visible-md-block visible-sm-block visible-xs-block"></div>
 	  <div class="col-md-4 col-sm-6 col-xs-12 placecontent">
-            <a href="https://goo.gl/maps/ZFg75fAPepxLsY7PA" target="_blank">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1695496959505!2d126.91928371572651!3d37.55106897980079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98dab2667e27%3A0xb675acff7db4e094!2zVlIgU1FVQVJFIO2ZjeuMgOygkA!5e0!3m2!1sen!2skr!4v1564658591364!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-            <span> <p class="title"> Bukchon Hanok Village <br> <p class="content"> This is the place where you can see the traditional house style of Korea, 'Hanok'. The meaning of Bukchon is the north. This is a place where people are actually living in, so you should be quiet and acting politely when you visit here.</span></div>
+            <a href="https://goo.gl/maps/TaZnjACqtz1MjdKw7" target="_blank">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.839051530667!2d126.98146441572713!3d37.582407479794895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2daaff8c14f%3A0xcdbcbaa9ffc9e59a!2sBukchon+Hanok+Village!5e0!3m2!1sen!2skr!4v1563520611915!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+            <span> <p class="title"> Bukchon Hanok Village <br> <p class="content"> This is the place where you can see the traditional house style of Korea, 'Hanok'. The meaning of Bukchon is the north. This is a place where people are actually living in, so you should be quiet with a manner when you visit here.</span></div>
           <div class="clearfix visible-lg-block"></div>
           <div class="col-md-4 col-sm-6 col-xs-12 placecontent">
-            <a href="https://goo.gl/maps/cDQMifVRwcMvWmpt5" target="_blank">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.683540905478!2d127.06893921572618!3d37.53895647980304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4e88c2dfec9%3A0x80a05d291f8bde4f!2sLotte+Department+Store!5e0!3m2!1sen!2skr!4v1564658708098!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+            <a href="https://goo.gl/maps/UaKLvYMvehf1EiCL7" target="_blank">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.1845833178486!2d126.95388231572687!3d37.574270979796424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca282cc50f361%3A0x1f9df4a115e4132!2sSeodaemun+Prison+History+Hall!5e0!3m2!1sen!2skr!4v1563686536911!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
               <span> <p class="title"> Seodaemun Prison History Musieum<br> <p class="content"> Korea was colonised by Japan for 35 years at the early 18th. This prison was the place where Japan goverment incarcerated and tortured lots of people who tried to make Korea independant. You can see how they were treated and tortured by Japanase goverment. It's a real sad place where you can feel the pain of history in that time. Strongly recommend you to learn about one of the Asian modern history.</span></div>
           <div class="clearfix visible-md-block visible-sm-block visible-xs-block"></div>
           <div class="col-md-4 col-sm-6 col-xs-12 placecontent">
@@ -188,16 +186,16 @@ amusement park
 	  <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
             <a href="https://goo.gl/maps/Wk1n49oA4tfERnt49" target="_blank">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25298.597893232585!2d126.90549049612355!3d37.57097025437244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9946b67673a3%3A0x3e7f1adf421643e!2sHaneul+Park!5e0!3m2!1sen!2skr!4v1563520311662!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> <p class="title"> Haneul Park <br> <p class="content"> Haneul(the meaning of sky) Park was a landfill once and restored as a park to protect nature. There's a festival called 'Flame Grass Festival' every October. This park is rocated quite high place so you can enjoy the view of Seoul. </span></div>
+              <span> <p class="title"> Haneul Park <br> <p class="content"> Haneul(the meaning of sky) Park was a landfill once. But to protect nature and commemorate the 2002 Worldcup, the landfill was restored as one of the parks near the Sangam Worldcup Stadium. <br>There's a festival called 'Flame Grass Festival' every October. This park is rocated quite high place so you can enjoy the view of Seoul. </span></div>
           <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
             <a href="https://goo.gl/maps/6aawMtqcGx1oXFXZ9" target="_blank">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12595.006165568004!2d126.7401754!3d37.8894928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1016a408cb34f829!2z7J6E7KeE6rCB!5e0!3m2!1sko!2skr!4v1564299719863!5m2!1sko!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> <p class="title"> Imjingak <br> <p class="content"> Imjingak is for the people who from North Korea. When there's a big national holiday like 'Lunar New Year' or 'Chusok(harvest festival)', Korean usually go to a hometown and gather around with their family. But after 6.25 war, South Korean can't go to North Korea. So for these people who have a hometown at North, Imjingak is made. You can see the land of North Korea when the whether is clear and there's a tour for DMZ walking. For this tour, you need a passport. You can visit the below website for more information.<br> <a href="http://www.letskorail.com/ebizbf/EbizBfAboutDmzTrain.do"> http://www.letskorail.com/ebizbf/EbizBfAboutDmzTrain.do </a></span></div>
+              <span> <p class="title"> Imjingak <br> <p class="content"> Imjingak was built for the people who from North Korea. When there's a big national holiday like 'Lunar New Year' or 'Chusok(harvest festival)', Korean usually go to a hometown and gather around with their family. But after 6.25 war, South Korean can't go to North Korea. So for these people who have a hometown at North, Imjingak was built. You can see the land of North Korea when the whether is clear and there's a tour for DMZ walking. DMZ is forbidden except for soldier, so this place is really well-reserved nature place in Asia. There's a lot of endangered species and natural monument like asiatic black bear, fox and otter etc. For this tour, you need a passport. You can visit the below website for more information.<br> <a href="http://www.letskorail.com/ebizbf/EbizBfAboutDmzTrain.do"> http://www.letskorail.com/ebizbf/EbizBfAboutDmzTrain.do </a></span></div>
           <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
           <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
             <a href="https://goo.gl/maps/eBEYQDN6qjnUsXCv8" target="_blank">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.308524354554!2d127.0224441801347!3d37.57135207989605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ece3930023%3A0xbd86fa6e88b74ed4!2sCheonggyecheon!5e0!3m2!1sen!2skr!4v1563685982847!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> <p class="title"> Cheonggyecheon <br> <p class="content"> Cheonggyecheon is the straeam running through the north area of Seoul. There was a overpass, but because of a safety isse like Seoul-ro, the city decided to break down and restore the stream. This stream is also near the city hall and 'Deoksugung Palace'. So when you want to take some relax, this is one of the good place </span></div>
+              <span> <p class="title"> Cheonggyecheon <br> <p class="content"> Cheonggyecheon is the straeam running through the north area of Seoul. There was a overpass, but because of a safety issue like Seoul-ro, the city decided to break down and restore the stream. This stream is also near the city hall and 'Deoksugung Palace'. So when you want to take some relax after visiting lots of places, this is one of the good place to rest</span></div>
           <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
             <a href="https://goo.gl/maps/mtod7oZY1RtnYqxn6" target="_blank">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.40589810664!2d127.1206696801333!3d37.521928079905116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357caff563d39abb%3A0x16fd57ef1593ec0a!2sMongchontoseong+Fortress!5e0!3m2!1sen!2skr!4v1563685298595!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
@@ -218,23 +216,23 @@ amusement park
         <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
 
         <div id="marketmap" style="display:none">
+          <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
+            <a href="https://goo.gl/maps/DwQLKXuMYvZL4DrQ7" target="_blank">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10637.994151534176!2d126.97404481489514!3d37.562258870240804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f516e5887d%3A0xcd371b16a3ec2061!2sNamdaemun+Market!5e0!3m2!1sen!2skr!4v1563450369803!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span> <p class="title"> Namdaemun Market <br> <p class="content">It's one of the oldest market in Korea as its history is over 600 years. There's over 10,000 shops and you can buy almost anything from traditional thing to food, accessory and clothes. <br> One of the famous thing at this market is a alley of cutlassfish. At this alley, you can enjoy braised cutlassfish. Check the below youtube, if you want to try other things too! <br> <a href="https://www.youtube.com/watch?v=7SKp56q9cCA"> https://www.youtube.com/watch?v=7SKp56q9cCA </a></span></div>
 	  <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
             <a href="https://goo.gl/maps/p6aSVNcyK7S946RT8" target="_blank">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12649.443317724603!2d126.9993336!3d37.5701202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd656a34831089f44!2sGwangjang+Market!5e0!3m2!1sen!2skr!4v1563448035643!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> test </span></div>
-          <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
-      <a href="https://goo.gl/maps/DwQLKXuMYvZL4DrQ7" target="_blank">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10637.994151534176!2d126.97404481489514!3d37.562258870240804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f516e5887d%3A0xcd371b16a3ec2061!2sNamdaemun+Market!5e0!3m2!1sen!2skr!4v1563450369803!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> test </span></div>
+              <span> <p class="title"> Gwangjang Market <br> <p class="content"> This market has been run for 100 years at the center of Seoul. People visit here to buy some vintage clothes for a bargain. Also newlyweds buy Hankbok or some sleeping material like pillow and comforter at here.<br> One of the recommended food to eat is 'yughoe, the beaf tarate'. But there's also lots of delicious things you can try, why don't you check it from the below website <a href="https://chasingaplate.com/gwangjang-market-street-food-guide-seoul/"> https://chasingaplate.com/gwangjang-market-street-food-guide-seoul/ </a> </span></div>
           <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
 	  <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
             <a href="https://goo.gl/maps/TWEErYPxaXCbwLow5" target="_blank">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.1384294160455!2d127.01785632144689!3d37.573056793581856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca337fea3032b%3A0x639ca41da421a95f!2sDongmyo+Outdoor+Market!5e0!3m2!1sen!2skr!4v1563450518826!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> test </span></div>
+              <span><p class="title"> Dongmyo Outdoor Market <br> <p class="content"> If you're a fan of vintage, it's the place you'd like. It's the place for people who are especially interested in vintage. Here, you can get vintage clothes to shoe, analog watch and old flip phone for a bargain. <br> There's also a alley of toy, so don't miss that if you're a toy collector. </span></div>
           <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
-            <a href="https://goo.gl/maps/mtod7oZY1RtnYqxn6" target="_blank">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.40589810664!2d127.1206696801333!3d37.521928079905116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357caff563d39abb%3A0x16fd57ef1593ec0a!2sMongchontoseong+Fortress!5e0!3m2!1sen!2skr!4v1563685298595!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
-              <span> test </span></div>
+            <a href="https://goo.gl/maps/gbrwzvYw5c46PKaKA" target="_blank">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.4305487340284!2d127.00558176572692!3d37.56847812979764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ed7e74759b%3A0x1d6ac811af7fd76f!2sDongdaemun+Market!5e0!3m2!1sen!2skr!4v1565009002333!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span><p class="title"> Dongdaemun market <br> <p class="content"> If one of your purpose of visiting Korea is a shopping, then it's a place you should visit. You can see the fashion trend in Korea from this market. From fabrics to shoe, hats and other handmade thigs, you can enjoy spending time at here.<br> Near this place, there's a famous complexity called DDP, so don't miss this place too. </span></div>
           <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
           <div class="insnippet">
             <span id="inmapbutton" onclick="
@@ -248,10 +246,38 @@ amusement park
           </div>
         </div>
 
+        <div id="nightviewmap" style="display:none">
+          <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
+            <a href="https://goo.gl/maps/daxxmFxQnWdWYJ5C9" target="_blank">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10639.677838408503!2d126.97952071494012!3d37.550465850581936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca257a88e6aa9%3A0x5cf8577c2e7982a5!2sN+Seoul+Tower!5e0!3m2!1sen!2skr!4v1565009264921!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span> <p class="title"> N Seoul Tower <br> <p class="content">It's one of the oldest market in Korea as its history is over 600 years. There's over 10,000 shops and you can buy almost anything from traditional thing to food, accessory and clothes. <br> One of the famous thing at this market is a alley of cutlassfish. At this alley, you can enjoy braised cutlassfish. Check the below youtube, if you want to try other things too! <br> <a href="https://www.youtube.com/watch?v=7SKp56q9cCA"> https://www.youtube.com/watch?v=7SKp56q9cCA </a></span></div>
+	  <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
+            <a href="https://goo.gl/maps/2zM8iTtzksucpueY9" target="_blank">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7849173232407!2d127.1005435157255!3d37.51299067980783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca50a915f665b%3A0xabeb10cd5efdfce2!2sLotte+World+Tower!5e0!3m2!1sen!2skr!4v1565009326787!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span> <p class="title"> Lotte World Tower <br> <p class="content"> This market has been run for 100 years at the center of Seoul. People visit here to buy some vintage clothes for a bargain. Also newlyweds buy Hankbok or some sleeping material like pillow and comforter at here.<br> One of the recommended food to eat is 'yughoe, the beaf tarate'. But there's also lots of delicious things you can try, why don't you check it from the below website <a href="https://chasingaplate.com/gwangjang-market-street-food-guide-seoul/"> https://chasingaplate.com/gwangjang-market-street-food-guide-seoul/ </a> </span></div>
           <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-
+	  <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
+            <a href="https://goo.gl/maps/hkEJ2zGiTKDQxuBs5" target="_blank">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10643.113605859926!2d126.94128859354828!3d37.5263909604823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4d8869ebf8d452c!2sYeouido+Hangang+Park!5e0!3m2!1sen!2skr!4v1565009410594!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span><p class="title"> Yeouido Hangang Park <br> <p class="content"> If you're a fan of vintage, it's the place you'd like. It's the place for people who are especially interested in vintage. Here, you can get vintage clothes to shoe, analog watch and old flip phone for a bargain. <br> There's also a alley of toy, so don't miss that if you're a toy collector. </span></div>
+          <div class="col-md-6 col-sm-6 col-xs-12 naturecontent">
+            <a href="https://goo.gl/maps/ZxV7NjE4ZApqdVwe9" target="_blank">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15057.530207289783!2d127.02389426167439!3d37.49716674180011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1598c361b2b%3A0xdbf9af292beff3c!2sGangnam!5e0!3m2!1sen!2skr!4v1565009568872!5m2!1sen!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></a>
+              <span><p class="title"> Gangnam <br> <p class="content"> If you just enjoy a splashy neon sign at the street, this is it. Gangnam station is one of the place that lots of young people in Seoul come and enjoy the night life. There's lots of restaurant, bar and club and you can enjoy the whole night. <br>Another recommended place is Hongdae street, it's a little bit far from Gangnam, but you can enjoy a fun night at there too. </span></div>
+          <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+          <div class="insnippet">
+            <span id="inmapbutton" onclick="
+	    if(nightviewmap.style.display=='none'){
+	    nightviewmap.style.display='';
+	    this.innerText='Hide';
+            }
+	    else{
+	    nightviewmap.style.display='none';
+	    }"> <a href="#nightview" class="hidebutton">Hide </a></span>
+          </div>
         </div>
-      </div>
+
+          <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
 
   <footer class="panel-footer">
     <div class="container">
@@ -273,7 +299,7 @@ document.getElementById("marketmap").scrollIntoView();
 }
 
 function move4() {
-document.getElementById("nightlifemap").scrollIntoView(); 
+document.getElementById("nightviewmap").scrollIntoView(); 
 }
 </script>
 
