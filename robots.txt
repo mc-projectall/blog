@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mc-projectall.github.io/travelkorea/sitemap.xml
