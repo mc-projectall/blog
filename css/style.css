@@ -127,11 +127,11 @@ margin-right: auto;
 border-radius: 5px;
 }
 
-#map-tile, #tour-tile, #reservation-tile {
+#map-tile, #activity-tile, #reservation-tile {
 margin-top: 10px;
 }
 
-#map-image, #tour-image, #reservation-image {
+#map-image, #activity-image, #reservation-image {
 position: relative;
 width: 100%;
 background-position: center;
@@ -158,7 +158,7 @@ margin-top: 10px;}
   background-color: #012;
 }
 
-#link1:hover, #map-tile:hover, #tour-tile:hover, #reservation-tile:hover{
+#link1:hover, #map-tile:hover, #activity-tile:hover, #reservation-tile:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 opacity: 1.5;
 }
