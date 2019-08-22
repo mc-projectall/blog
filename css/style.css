@@ -380,16 +380,21 @@ padding-left: 20%;
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
 
-  /* End Header */
+.inmapbutton {
+  font-size: 4vw;
+}
+
+
+/* feedback */
+
+#commentid {
+  font-size: 3vw;
+}
+
+/* END feedback */
 
 }
-/*
-15번과 연결
-*/
-
-
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -419,10 +424,15 @@ background-position: center;}
   font-size: 5vw;
 }
 
-
-
 /* travel theme */
 
+/* feedback */
+
+#commentid {
+  font-size: 4vw;
+}
+
+/* END feedback */
 
 }
 
@@ -553,8 +563,21 @@ font-size: 3vw;
   font-size: 5vw;
 }
 
+.inmapbutton {
+  font-size: 4vw;
+}
+
+
 /* travel theme */
 
+
+/* feedback */
+
+#commentid {
+  font-size: 5vw;
+}
+
+/* END feedback */
 
 
 }
@@ -596,14 +619,16 @@ font-size: 3vw;
 }
 
 #span_code_snippet, #inmap {
-  font-size: 3vw;
+  font-size: 5vw;
 
 }
 
+.inmapbutton {
+  font-size: 5vw;
+}
 
+}
   /* travel theme */
-
-}
 /*
 26. 아이폰4의 화면이 가장 작음, 그래서 여기서도 테스트하고 화면 조정*/
 
